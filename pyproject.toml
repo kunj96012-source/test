@@ -1,0 +1,19 @@
+[project]
+name = "so-challenge"
+version = "0.1.0"
+description = "Stack Overflow data analysis project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "requests",
+]
+
+[dependency-groups]
+dev = [
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
